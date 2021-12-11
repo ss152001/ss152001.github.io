@@ -3,22 +3,31 @@
       <img src="https://ss152001.github.io/gif/index.gif" alt="zoom">
 </div>
 -->
-.zoom-img {
-  width: 500px;
-  height: 500px;
-  overflow: scroll;
-}
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Page Title</title>
 
-.zoom-img img {
-  width: 100%;
-  transition: width 0.25s ease;
-}
+        <style>
+        .zoom 
+        {
+        padding: 50px;
+        background-color: grey;
+        width: 200px;
+        /* height: 200px; */
+        margin-top: 200px;
+        margin-left: 200px;
+        transition: transform .2s; /* Zoom animation */
+        }
 
-.zoom-img img:hover {
-  width: 3000px;
-}
+        .zoom:hover 
+        {
+        transform: scale(1.5); /* (150% zoom) */
+        }
+</style>
+    </head>
 
-<div class="zoom-img">
-  <img src="https://ss152001.github.io/gif/index.gif">
-</div>
-
+    <body>
+        <div class="zoom"><img width="100%" src="https://cdn.wallpapersafari.com/39/4/zRTxbl.jpg"/></div>   
+    </body>
+</html>
