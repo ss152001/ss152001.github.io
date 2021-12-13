@@ -94,13 +94,13 @@ function imageZoom(imgID, resultID) {
 <p>Mouse over the image:</p>
 
 <div class="img-zoom-container">
-  <img id="myimage" src="http://ss152001.github.io/gif2/fps_5_dpi_200.gif" width="1871.52 " height="123.65"> <!--2228 * 147.2 -->
-  <div id="myresult" class="img-zoom-result"></div>
+  <img id="myimage_co2" src="http://ss152001.github.io/gif2/fps_5_dpi_200.gif" width="1871.52 " height="123.65"> <!--2228 * 147.2 -->
+  <div id="myresult_co2" class="img-zoom-result"></div>
 </div>
 
 <div class="img-zoom-container">
-  <img id="myimage_O2" src="http://ss152001.github.io/gif2/O2_fps_5_dpi_200.gif" width="1871.52 " height="123.65"> <!--2228 * 147.2 -->
-  <div id="myresult_O2" class="img-zoom-result"></div>
+  <img id="myimage_angle" src="http://ss152001.github.io/gif2/angle_fps_5_dpi_200.gif" width="1871.52 " height="123.65"> <!--2228 * 147.2 -->
+  <div id="myresult_angle" class="img-zoom-result"></div>
 </div>
   
 <div class="img-zoom-container">
@@ -108,25 +108,36 @@ function imageZoom(imgID, resultID) {
   <div id="myresult_perm" class="img-zoom-result"></div>
 </div>
   
+<div class="img-zoom-container">
+  <img id="myimage_O2" src="http://ss152001.github.io/gif2/O2_fps_5_dpi_200.gif" width="1871.52 " height="123.65"> <!--2228 * 147.2 -->
+  <div id="myresult_O2" class="img-zoom-result"></div>
+</div>
+  
+
+  
 <p>The image must be placed inside a container with relative positioning.</p>
 <p>The result can be put anywhere on the page, but must have the class name "img-zoom-result".</p>
 <p>Make sure both the image and the result have IDs. These IDs are used when a javaScript initiates the zoom effect.</p>
 
 <script>
 // Initiate zoom effect:
-imageZoom("myimage", "myresult");
+imageZoom("myimage_co2", "myresult_co2");
 </script>
 
 <script>
 // Initiate zoom effect:
-imageZoom("myimage_O2", "myresult_O2");
+imageZoom("myimage_angle", "myresult_angle");
 </script>
   
 <script>
 // Initiate zoom effect:
 imageZoom("myimage_perm", "myresult_perm");
 </script>
-  
+
+<script>
+// Initiate zoom effect:
+imageZoom("myimage_O2", "myresult_O2");
+</script>
   
 </body>
 </html>
