@@ -94,60 +94,23 @@ function imageZoom(imgID, resultID) {
 <p>Mouse over the image:</p>
 
 <div class="img-zoom-container">
-  <img id="myimage_co2" src="http://ss152001.github.io/gif2/fps_5_dpi_200.gif" width="1871.52 " height="123.65"> <!--2228 * 147.2: factor = 1.19-->
-  <div id="myresult_co2" class="img-zoom-result"></div>
-</div>
-
-<div class="img-zoom-container">
-  <img id="myimage_angle" src="http://ss152001.github.io/gif2/angle_fps_5_dpi_200.gif" width="1855.4" height="173.03"> <!--1698.4 * 158.4 -->
-  <div id="myresult_angle" class="img-zoom-result"></div>
+  <img id="myimage" src="http://ss152001.github.io/AGU/co2/co2_fps_5_dpi_200.gif" width="1871.52 " height="123.65"> <!--2228 * 147.2: factor = 1.19-->
+  <div id="myresult" class="img-zoom-result"></div>
 </div>
   
-<div class="img-zoom-container">
-  <img id="myimage_liquid" src="http://ss152001.github.io/gif2/liquid_fps_5_dpi_200.gif" width="1855.4" height="173.03"> <!--1698.4 * 158.4 -->
-  <div id="myresult_liquid" class="img-zoom-result"></div>
-</div>
-  
-<div class="img-zoom-container">
-  <img id="myimage_perm" src="http://ss152001.github.io/gif2/perm_fps_5_dpi_200.gif" width="2097.87" height="115.5"> <!--1783.2 * 98.2 -->
-  <div id="myresult_perm" class="img-zoom-result"></div>
-</div>
-  
-<div class="img-zoom-container">
-  <img id="myimage_O2" src="http://ss152001.github.io/gif2/O2_fps_5_dpi_200.gif" width="1498.49" height="115.5"> <!--1486 * 98.2 -->
-  <div id="myresult_O2" class="img-zoom-result"></div>
-</div>
-  
-
-  
+<!--
 <p>The image must be placed inside a container with relative positioning.</p>
 <p>The result can be put anywhere on the page, but must have the class name "img-zoom-result".</p>
 <p>Make sure both the image and the result have IDs. These IDs are used when a javaScript initiates the zoom effect.</p>
-
-<script>
-// Initiate zoom effect:
-imageZoom("myimage_co2", "myresult_co2");
-</script>
-
-<script>
-// Initiate zoom effect:
-imageZoom("myimage_angle", "myresult_angle");
-</script>
+-->
+  
   
 <script>
 // Initiate zoom effect:
-imageZoom("myimage_liquid", "myresult_liquid");
-</script>
-  
-<script>
-// Initiate zoom effect:
-imageZoom("myimage_perm", "myresult_perm");
+imageZoom("myimage", "myresult_co2");
 </script>
 
-<script>
-// Initiate zoom effect:
-imageZoom("myimage_O2", "myresult_O2");
-</script>
+
   
 </body>
 </html>
