@@ -1,9 +1,9 @@
 Golden Software Cartographic Reference Information : Version 2.00
 System Type : GCS
 Georef Method : Affine With Coefficients
-Georef Coefficient A : 0.00391783847911578
+Georef Coefficient A : 0.00999578676373746
 Georef Coefficient B : 0
-Georef Coefficient C : -10.2655003452907
+Georef Coefficient C : -0.083173562080189
 Georef Coefficient D : 0
-Georef Coefficient E : -0.00208258626934691
-Georef Coefficient F : 9.52589227312923
+Georef Coefficient E : -0.00999323774770924
+Georef Coefficient F : 9.11755206467075
