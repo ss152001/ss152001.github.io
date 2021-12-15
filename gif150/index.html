@@ -14,8 +14,8 @@
   position: absolute;
   border: 1px solid #d4d4d4;
   /*set the size of the lens:*/
-  width: 40px;
-  height: 40px;
+  width: 173.03px;
+  height: 173.03px;
 }
 
 .img-zoom-result {
@@ -88,48 +88,38 @@ function imageZoom(imgID, resultID) {
 <!-- background color -->
   
   
-  
-<h1>Image Zoom</h1>
 
-<p>Mouse over the image:</p>
+
+
 
 <div class="img-zoom-container">
-  <img id="myimage_co2" src="http://ss152001.github.io/gif2/fps_5_dpi_200.gif" width="1871.52 " height="123.65"> <!--2228 * 147.2: factor = 1.19-->
+  <img id="myimage_co2" src="http://ss152001.github.io/gif150/co2_5_dpi_150.gif" width="1871.52 " height="123.65"> <!--2228 * 147.2: factor = 1.19-->
   <div id="myresult_co2" class="img-zoom-result"></div>
 </div>
-<!--
+
 <div class="img-zoom-container">
-  <img id="myimage_angle" src="http://ss152001.github.io/gif2/angle_fps_5_dpi_200.gif" width="1855.4" height="173.03"> 
+  <img id="myimage_angle" src="http://ss152001.github.io/gif150/angle_fps_5_dpi_150.gif" width="1855.4" height="173.03"> 
   <div id="myresult_angle" class="img-zoom-result"></div>
 </div>
   
 <div class="img-zoom-container">
-  <img id="myimage_liquid" src="http://ss152001.github.io/gif2/liquid_fps_5_dpi_200.gif" width="1855.4" height="173.03"> 
+  <img id="myimage_liquid" src="http://ss152001.github.io/gif150/liquid_fps_5_dpi_150.gif" width="1855.4" height="173.03"> 
   <div id="myresult_liquid" class="img-zoom-result"></div>
 </div>
   
 <div class="img-zoom-container">
-  <img id="myimage_perm" src="http://ss152001.github.io/gif2/perm_fps_5_dpi_200.gif" width="2097.87" height="115.5"> 
+  <img id="myimage_perm" src="http://ss152001.github.io/gif150/perm_fps_5_dpi_150.gif" width="2097.87" height="115.5"> 
   <div id="myresult_perm" class="img-zoom-result"></div>
 </div>
   
-<div class="img-zoom-container">
-  <img id="myimage_O2" src="http://ss152001.github.io/gif2/O2_fps_5_dpi_200.gif" width="1498.49" height="115.5"> 
-  <div id="myresult_O2" class="img-zoom-result"></div>
-</div>
--->
 
-  
-<p>The image must be placed inside a container with relative positioning.</p>
-<p>The result can be put anywhere on the page, but must have the class name "img-zoom-result".</p>
-<p>Make sure both the image and the result have IDs. These IDs are used when a javaScript initiates the zoom effect.</p>
 
 <script>
 // Initiate zoom effect:
 imageZoom("myimage_co2", "myresult_co2");
 </script>
 
-<!--
+
 <script>
 // Initiate zoom effect:
 imageZoom("myimage_angle", "myresult_angle");
@@ -145,11 +135,7 @@ imageZoom("myimage_liquid", "myresult_liquid");
 imageZoom("myimage_perm", "myresult_perm");
 </script>
 
-<script>
-// Initiate zoom effect:
-imageZoom("myimage_O2", "myresult_O2");
-</script>
--->
+
   
 </body>
 </html>
