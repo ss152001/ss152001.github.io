@@ -12,14 +12,14 @@
 
 .img-zoom-lens {
   position: absolute;
-  border: 1px solid #d4d4d4;
+  border: 1px solid #660033;
   /*set the size of the lens:*/
-  width: 173.03px;
-  height: 173.03px;
+  width: 120px; 
+  height: 120px;
 }
 
 .img-zoom-result {
-  border: 1px solid #d4d4d4;
+  border: 1px solid #660033;
   /*set the size of the result div:*/
   width: 300px;
   height: 300px;
@@ -83,7 +83,7 @@ function imageZoom(imgID, resultID) {
 }
 </script>
 </head>
-<body style="background-color:#000000;">
+<body style="background-color:#999999;">
 
 <!-- background color -->
   
@@ -93,7 +93,7 @@ function imageZoom(imgID, resultID) {
 
 
 <div class="img-zoom-container">
-  <img id="myimage_co2" src="http://ss152001.github.io/gif150/co2_fps_5_dpi_150.gif" width="1855.4" height="122.63"> <!--2228 * 147.2: factor = 1.19-->
+  <img id="myimage_co2" src="http://ss152001.github.io/gif150/co2_fps_5_dpi_150.gif" width="1855.4" height="122.63"> 
   <div id="myresult_co2" class="img-zoom-result"></div>
 </div>
 
@@ -102,13 +102,14 @@ function imageZoom(imgID, resultID) {
   <div id="myresult_angle" class="img-zoom-result"></div>
 </div>
   
+<p>Liquid saturation:</p>
 <div class="img-zoom-container">
   <img id="myimage_liquid" src="http://ss152001.github.io/gif150/liquid_fps_5_dpi_150.gif" width="1855.4" height="173.03"> 
   <div id="myresult_liquid" class="img-zoom-result"></div>
 </div>
   
 <div class="img-zoom-container">
-  <img id="myimage_perm" src="http://ss152001.github.io/gif150/perm_fps_5_dpi_150.gif" width="1855.4" height="293.01"> 
+  <img id="myimage_perm" src="http://ss152001.github.io/gif150/perm_fps_5_dpi_150.gif" width="1855.4" height="120"> 
   <div id="myresult_perm" class="img-zoom-result"></div>
 </div>
   
@@ -135,6 +136,8 @@ imageZoom("myimage_liquid", "myresult_liquid");
 imageZoom("myimage_perm", "myresult_perm");
 </script>
 
+
+  
 
   
 </body>
